@@ -23,6 +23,11 @@ module.exports = {
         "semi": [
             "error",
             "always"
-        ]
+        ],
+        "strict": [
+            "error","global"
+        ],
+        "no-extra-semi": "off",
+        "no-console": "off"
     }
 };
